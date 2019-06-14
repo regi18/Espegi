@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            padding: 5px;
+            margin: auto;
+            width: 30%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            div {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        table {
+            margin: auto;
+            padding: 1.5em 0 2.5em 0;
+            width: 99.7%;
+        }
+
+        button {
+            border: 0;
+            border-radius: 0.6rem;
+            background-color: #1fb3ec;
+            color: rgb(252, 252, 252);
+            line-height: 2.4rem;
+            font-size: 1.2rem;
+            background-color: #008CBA;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+    </style>
+    <title>ESPEGI</title>
+
+</head>
+
+<body>
+    <div>
+        <h1 id='state' style='font-size: 3.5em;'>ON</h1>
+        <table>
+            <tr>
+                <td style='text-align: left'><b>Temperature</b></td>
+                <td style='text-align: right'>20.5&#xB0;C</td>
+            </tr>
+            <tr>
+                <td style='text-align: left;'><b>Humidity</b></td>
+                <td style='text-align: right'>45%</td>
+            </tr>
+        </table>
+        <form action='/toggle' method='get'><button>Toggle</button></form>
+        <form action='/update' method='get'><button>Firmware Update</button></form>
+
+        <p style='position: absolute; bottom: 1.5em; width: inherit;'>Hostname: ESPEGI</p>
+        <p style='position: absolute; bottom: 0; width: inherit;'>
+            <a style='color: black;' href='/forcereload'>force reload</a>&emsp;|&emsp;
+            <a style='color: black;' href='/restart'>restart</a>
+        </p>
+    </div>
+</body>
+
+</html>

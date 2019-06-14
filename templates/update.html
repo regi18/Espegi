@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            padding: 5px;
+            margin: auto;
+            width: 30%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            div {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        #b {
+            border: 0;
+            border-radius: 0.6rem;
+            background-color: #1fb3ec;
+            color: rgb(252, 252, 252);
+            line-height: 2.4rem;
+            font-size: 1.2rem;
+            background-color: #008CBA;
+            width: 100%;
+        }
+    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+    <title>ESPEGI</title>
+</head>
+
+<body>
+    <div>
+        <h1 style='font-size: 3.5em;'>Update</h1>
+        <form method='POST' action='/startupdate' enctype='multipart/form-data' style='padding-top: 2em;'> <input
+                type='file' name='update'><br /><br /> <input type='submit' value='Update' id='b'> </form>
+        <p style='position: absolute; bottom: 0; width: inherit;'>Hostname: ESPEGI</p>
+    </div>
+</body>
+
+</html>
