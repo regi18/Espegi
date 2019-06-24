@@ -69,8 +69,6 @@ Finally you have the ESP8266 pins (RELAY_PIN, LED_PIN, etc...), and the Blynk's 
 # Contributors
 [regi18](https://github.com/regi18/)
 
----
-
 ## License
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
