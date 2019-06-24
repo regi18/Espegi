@@ -3,7 +3,7 @@ Espegi is an alternative firmware for ESP8266 based devices like iTead Sonoff wi
 <br><br>
 <img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="15%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://www.espressif.com/sites/all/themes/espressif/logo.svg" width="30%"/>
-
+<br><br><br>
 # Features
 Espegi is mainly focused on controlling a Sonoff, but with simple tweaks (in the config.h file) can be adapted to any ESP8266 based device.
 ##### Web UI
@@ -68,8 +68,6 @@ Finally you have the ESP8266 pins (RELAY_PIN, LED_PIN, etc...), and the Blynk's 
 
 # Contributors
 [regi18](https://github.com/regi18/)
-
----
 
 ---
 
