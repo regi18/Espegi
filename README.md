@@ -20,6 +20,8 @@ Another feature is the ease of control through scripting languages and/or comman
 
 You can find examples in the "example scripts" folder.
 
+---
+
 # How to install
 Flashing is quite easy (if you need more information look up tasmota flashing on google):
 
@@ -35,6 +37,8 @@ Flashing is quite easy (if you need more information look up tasmota flashing on
 5. Follow this flash settings, and upload the firmware (if you need to upload to a sonoff, before plugging it into the PC you have to put it in flash mode, by holding down the button while plugging it in). Surely the most important settings are: "Flash size", "Flash Mode" and "IwIP Variant". Set them right or the firmware might not work.<br><br>
 ![alt text](images/upload_settings.png)
 6. Finished! Now look up on the router for the new IP address (Hostname: ESPEGI), type it in a browser, and you'll find the Web UI!
+
+---
 
 # Config file
 The configuration file (the only you have to change) is fairly easy:
@@ -59,3 +63,17 @@ String ota_password = "admin";
 ```
 
 Finally you have the ESP8266 pins (RELAY_PIN, LED_PIN, etc...), and the Blynk's virtual pins (RELAY_VPIN, etc...)
+
+---
+
+# Contributors
+[regi18](https://github.com/regi18/)
+
+---
+
+---
+
+## License
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
